@@ -21,6 +21,11 @@
         box-shadow: none;
     }
 
+    .about_me {
+        justify-content: center;
+        align-items: center;
+    }
+
     .about_me_2{
         flex-direction: column;
     }
@@ -29,20 +34,43 @@
         box-shadow: none;
     }
 
-    .experience_items{
-        width: 950px;
-    }
 
     .experience_items_item{
+        width: 304px;
         flex-direction: column;
+        padding: 32px;
+        font-size: 16px;
+        height: auto;
     }
 
+    .experience_items_item ul {
+        width: 279px;
+    }
+
+
     .about_me_h3{
-        width: 303px;
+        width: 343px;
+        padding: 16px;
+        flex-wrap: wrap;
+        min-width: 343px;
     }
 
     .skills_items{
-        width:343px;
-        height: 436px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .skills_items_row {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: auto;
+        gap: 73px;
+        justify-content: flex-start;
+        align-items: center;
+
     }
 }
