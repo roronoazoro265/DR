@@ -1,0 +1,48 @@
+@media(max-width:768px){
+    .menu{
+        display:none;
+    }
+    .menu_icon{
+        display: block;
+        
+    }
+
+
+    .header_row {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .biography{
+        flex-direction: column-reverse;
+    }
+
+    .biography_img{
+        box-shadow: none;
+    }
+
+    .about_me_2{
+        flex-direction: column;
+    }
+
+    .about_me_2 img{
+        box-shadow: none;
+    }
+
+    .experience_items{
+        width: 950px;
+    }
+
+    .experience_items_item{
+        flex-direction: column;
+    }
+
+    .about_me_h3{
+        width: 303px;
+    }
+
+    .skills_items{
+        width:343px;
+        height: 436px;
+    }
+}
