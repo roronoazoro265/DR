@@ -75,6 +75,10 @@
 
     }
 
+    .work {
+        align-items: normal;
+    }
+
     .adaye{
         flex-direction: column;
         justify-content: center;
@@ -86,7 +90,7 @@
     }
 
     .adaye_h4_and_p{
-        align-items: center;
+        padding-left: 32px;
         gap: 24px;
     }
 
@@ -107,10 +111,6 @@
 
     .adaye_logo img{
         transform: scale(0.8);
-        
-    }
-
-    .adaye_h4_and_p{
         
     }
     
