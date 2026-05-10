@@ -59,6 +59,7 @@
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        padding-left: 30px;
         justify-content: center;
         align-items: center;
     }
@@ -73,4 +74,44 @@
         align-items: center;
 
     }
+
+    .adaye{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .adaye_revers{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .adaye_h4_and_p{
+        align-items: center;
+        gap: 24px;
+    }
+
+    .adaye_p{
+        width: 279px;
+        
+    }
+
+    .adaye_h4_and_p2{
+        width: 279px;
+    }
+
+    .adaye_logo{
+        display: flex;
+        justify-content: center;
+        width: auto;
+    }
+
+    .adaye_logo img{
+        transform: scale(0.8);
+        
+    }
+
+    .adaye_h4_and_p{
+        
+    }
+    
 }
